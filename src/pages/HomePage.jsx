@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
 import {
   SignInButton,
@@ -5,7 +6,7 @@ import {
   UserButton,
   useSession,
 } from "@clerk/react";
-import { ArrowRightIcon, LogInIcon } from "lucide-react";
+import { ArrowLeftIcon, ArrowRightIcon, LogInIcon } from "lucide-react";
 import React from "react";
 import { Link } from "react-router";
 
@@ -52,12 +53,57 @@ const HomePage = () => {
         </div>
       </div>
 
+      {/* Link To About Section */}
       <div>
         Read more about this tool{" "}
         <Link to="/about" className="text-blue-800 underline">
           here
         </Link>
         .
+      </div>
+
+      {/* Google Sheets Button */}
+      <div className="flex items-center gap-4">
+        <Button className="bg-green-700 text-white hover:bg-green-800">
+          Sheets
+        </Button>
+        <p className="flex gap-2 text-sm items-center">
+          <ArrowLeftIcon width={15} /> You can access the Google Sheets from
+          here
+        </p>
+      </div>
+
+      {/* Theme Toggle Button */}
+      <div className="flex items-center gap-4">
+        <ModeToggle />
+        <p className="flex gap-2 text-sm items-center">
+          <ArrowLeftIcon width={15} /> P.S. You can toggle the theme from here
+        </p>
+      </div>
+
+      {/* Credits Section */}
+      <div>
+        Created by ⚡{" "}
+        <ul>
+          <li>
+            <a
+              className="hover:underline"
+              href="https://github.com/aaryankalra"
+              target="_"
+            >
+              Aaryan
+            </a>
+          </li>
+          <li>
+            <a
+              className="hover:underline"
+              href="https://github.com/aaryankalra"
+              target="_"
+            >
+              Aaditya
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
