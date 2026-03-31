@@ -1,0 +1,90 @@
+{
+  "stores": [
+    {
+      "category": "Clothing",
+      "items": [
+        "T-Shirt",
+        "Jeans",
+        "Jacket",
+        "Sweater",
+        "Hoodie",
+        "Dress",
+        "Skirt",
+        "Shorts",
+        "Blazer",
+        "Track Pants",
+        "Kurta",
+        "Saree"
+      ]
+    },
+    {
+      "category": "Electronics",
+      "items": [
+        "Smartphone",
+        "Laptop",
+        "Tablet",
+        "Headphones",
+        "Smartwatch",
+        "Bluetooth Speaker",
+        "Camera",
+        "Gaming Console",
+        "Monitor",
+        "Keyboard",
+        "Mouse",
+        "Power Bank"
+      ]
+    },
+    {
+      "category": "Books",
+      "items": [
+        "Fiction Novel",
+        "Non-Fiction Book",
+        "Science Book",
+        "History Book",
+        "Biography",
+        "Self-Help Book",
+        "Fantasy Novel",
+        "Mystery Novel",
+        "Romance Novel",
+        "Comics",
+        "Manga",
+        "Academic Textbook"
+      ]
+    },
+    {
+      "category": "Restaurant",
+      "items": [
+        "Thin Crust Pizza",
+        "Wood Fired Pizza",
+        "Thick Crust Pizza",
+        "Colesaw Salad",
+        "Greek Salad",
+        "Caesar Salad",
+        "Chicken Sandwich",
+        "Paneer Sandwich",
+        "Pasta Carbonara",
+        "Pasta Alfredo",
+        "Pasta Arrabiata",
+        "Lasagna",
+        "Apple Pie"
+      ]
+    },
+    {
+      "category": "Cafe",
+      "items": [
+        "Espresso",
+        "Cappuccino",
+        "Latte",
+        "Americano",
+        "Cold Coffee",
+        "Mocha",
+        "Green Tea",
+        "Herbal Tea",
+        "Sandwich",
+        "Croissant",
+        "Muffin",
+        "Brownie"
+      ]
+    }
+  ]
+}
